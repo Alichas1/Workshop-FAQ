@@ -1,0 +1,43 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  padding: 30px;
+  text-indent: 10px;
+  border-bottom: lightgray solid 2px;
+  cursor: pointer;
+}
+
+span {
+  font-size: 1.2;
+  text-indent: -40px;
+}
+
+.description {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  margin-left: 40px;
+  border-bottom: lightgray solid 2px;
+  background-color: aqua;
+  display: none;
+}
+
+.active {
+  display: block;
+}
